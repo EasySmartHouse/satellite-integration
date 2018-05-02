@@ -1,0 +1,1 @@
+{"id":5,"timestamp":1525252524911,"sequence":[{"address":"2344323","commandType":"READ_VALUE","data":null},{"address":"ghj54656","commandType":"READ_VALUE","data":null},{"address":"ghj54656","commandType":"SWITCH_ON","data":null},{"address":"dfg3434","commandType":"SWITCH_OFF","data":null},{"address":"111111","commandType":"WRITE_VALUE","data":"/////w=="}]}
