@@ -23,7 +23,7 @@ public class CommandResultInbound {
                 .log()
                 .filter("(headers['x-death'] != null) ? headers['x-death'][0].count <= 3: true",
                         f -> f.discardChannel("nullChannel"))
-                .channel("stdoutChannel")
+                .channel("groundChannel")
                 .get();
     }
 }

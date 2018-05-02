@@ -8,16 +8,17 @@ import org.springframework.integration.stream.CharacterStreamWritingMessageHandl
 import org.springframework.messaging.MessageChannel;
 
 @Configuration
-public class StdFlowConfig {
+public class GroundStationConfig {
 
     @Bean
-    public MessageChannel stdoutChannel() {
+    public MessageChannel groundChannel() {
         return new DirectChannel();
     }
 
     @Bean
-    public IntegrationFlow stdoutFlow() {
-        return flow -> flow.channel("stdoutChannel")
+    public IntegrationFlow groundFlow() {
+        return flow -> flow.channel("groundChannel")
+                //TODO send command to ground
                 .handle(CharacterStreamWritingMessageHandler.stdout());
     }
 
