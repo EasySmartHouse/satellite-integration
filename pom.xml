@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>net.easysmarthouse</groupId>
-    <artifactId>saterllite-integration</artifactId>
+    <artifactId>satellite-integration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -21,9 +21,9 @@
     </organization>
 
     <modules>
-        <module>saterllite-integration-handler</module>
-        <module>saterllite-integration-dispatcher</module>
-        <module>saterllite-integration-common</module>
+        <module>satellite-integration-handler</module>
+        <module>satellite-integration-dispatcher</module>
+        <module>satellite-integration-common</module>
     </modules>
 
     <repositories>
